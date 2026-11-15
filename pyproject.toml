@@ -151,7 +151,7 @@ relevance = [
 # a try/except cascade. See issue #372 for context.
 image = [
     "pillow>=10.0.0",
-    "sentencepiece>=0.1.99",  # Required by SigLIP tokenizer (SiglipTokenizer)
+    "sentencepiece>=0.2.3",  # Required by SigLIP tokenizer (SiglipTokenizer)
     # Python 3.6–3.12: keep the proven ORT-bundled package directly.
     # ~15 MB ONNX models auto-downloaded on first use.
     "rapidocr-onnxruntime>=1.4.0,<2; python_version<'3.13'",
